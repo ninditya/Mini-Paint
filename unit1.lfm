@@ -1,0 +1,19 @@
+object Form2: TForm2
+  Left = 415
+  Height = 52
+  Top = 268
+  Width = 320
+  AutoSize = True
+  Caption = 'Text'
+  ClientHeight = 52
+  ClientWidth = 320
+  LCLVersion = '2.0.0.4'
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 16
+    Width = 280
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+end
